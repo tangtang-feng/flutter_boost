@@ -24,11 +24,11 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_boost/AIOService/NavigationService/service/NavigationService.dart';
-import 'package:flutter_boost/container/boost_container.dart';
-import 'package:flutter_boost/flutter_boost.dart';
-import 'package:flutter_boost/messaging/native_page_container_event_handler.dart';
-import 'package:flutter_boost/support/logger.dart';
+import 'package:flutter_boost_androidx/AIOService/NavigationService/service/NavigationService.dart';
+import 'package:flutter_boost_androidx/container/boost_container.dart';
+import 'package:flutter_boost_androidx/flutter_boost.dart';
+import 'package:flutter_boost_androidx/messaging/native_page_container_event_handler.dart';
+import 'package:flutter_boost_androidx/support/logger.dart';
 
 class ContainerCoordinator implements NativePageContainerEventHandler {
   static final ContainerCoordinator singleton = ContainerCoordinator();

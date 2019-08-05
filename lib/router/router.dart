@@ -23,11 +23,11 @@
  */
 import 'dart:async';
 
-import 'package:flutter_boost/container/boost_container.dart';
-import 'package:flutter_boost/flutter_boost.dart';
-import 'package:flutter_boost/messaging/message_proxy.dart';
-import 'package:flutter_boost/messaging/page_result_mediator.dart';
-import 'package:flutter_boost/support/logger.dart';
+import 'package:flutter_boost_androidx/container/boost_container.dart';
+import 'package:flutter_boost_androidx/flutter_boost.dart';
+import 'package:flutter_boost_androidx/messaging/message_proxy.dart';
+import 'package:flutter_boost_androidx/messaging/page_result_mediator.dart';
+import 'package:flutter_boost_androidx/support/logger.dart';
 
 class Router {
   MessageProxy _msgProxy = MessageProxyImp();

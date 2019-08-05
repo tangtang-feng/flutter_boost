@@ -1,6 +1,6 @@
-import 'package:flutter_boost/container/boost_container.dart';
+import 'package:flutter_boost_androidx/container/boost_container.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_boost/AIOService/NavigationService/service/NavigationService.dart';
+import 'package:flutter_boost_androidx/AIOService/NavigationService/service/NavigationService.dart';
 
 
 class NavigatorCanPopObserver extends BoostNavigatorObserver{

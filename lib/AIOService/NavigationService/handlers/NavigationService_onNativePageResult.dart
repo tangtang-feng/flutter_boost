@@ -24,9 +24,10 @@
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:xservice_kit/ServiceCallHandler.dart';
-import 'package:xservice_kit/ServiceGateway.dart';
-import 'package:flutter_boost/flutter_boost.dart';
+import 'package:xservice_kit_androidx/service_call_handler.dart';
+import 'package:xservice_kit_androidx/service_gateway.dart';
+
+import '../../../flutter_boost.dart';
 
 class NavigationService_onNativePageResult extends ServiceCallHandler {
 

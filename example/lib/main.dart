@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_boost/flutter_boost.dart';
+import 'package:flutter_boost_androidx/flutter_boost.dart';
 import 'simple_page_widgets.dart';
 
 void main() {

@@ -3,8 +3,8 @@
 //
 
 #import "GeneratedPluginRegistrant.h"
-#import <flutter_boost/FlutterBoostPlugin.h>
-#import <xservice_kit/XserviceKitPlugin.h>
+#import <flutter_boost_androidx/FlutterBoostPlugin.h>
+#import <xservice_kit_androidx/XserviceKitPlugin.h>
 
 @implementation GeneratedPluginRegistrant
 

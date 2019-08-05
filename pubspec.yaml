@@ -1,6 +1,6 @@
-name: flutter_boost
+name: flutter_boost_androidx
 description: A next-generation Flutter-Native hybrid solution. FlutterBoost is a Flutter plugin which enables hybrid integration of Flutter for your existing native apps with minimum efforts.
-version: 0.0.420
+version: 0.0.421
 author: tantang<guangjingfeng@gmail.com>
 homepage: https://github.com/tangtang-feng/flutter_boost.git
 
@@ -10,9 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  xservice_kit:
-    git:
-      url: https://github.com/tangtang-feng/xservice_kit.git
+  xservice_kit_androidx: ^0.0.30
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
 

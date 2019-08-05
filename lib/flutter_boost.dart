@@ -25,11 +25,11 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_boost/AIOService/NavigationService/service/NavigationService.dart';
-import 'package:flutter_boost/container/boost_container.dart';
-import 'package:flutter_boost/container/container_manager.dart';
-import 'package:flutter_boost/messaging/page_result_mediator.dart';
-import 'package:flutter_boost/router/router.dart';
+import 'package:flutter_boost_androidx/AIOService/NavigationService/service/NavigationService.dart';
+import 'package:flutter_boost_androidx/container/boost_container.dart';
+import 'package:flutter_boost_androidx/container/container_manager.dart';
+import 'package:flutter_boost_androidx/messaging/page_result_mediator.dart';
+import 'package:flutter_boost_androidx/router/router.dart';
 
 import 'AIOService/loader/ServiceLoader.dart';
 import 'container/container_coordinator.dart';

@@ -24,9 +24,9 @@
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:xservice_kit/ServiceCallHandler.dart';
-import 'package:xservice_kit/ServiceGateway.dart';
-import 'package:flutter_boost/container/container_coordinator.dart';
+import 'package:flutter_boost_androidx/container/container_coordinator.dart';
+import 'package:xservice_kit_androidx/service_call_handler.dart';
+import 'package:xservice_kit_androidx/service_gateway.dart';
 
 class NavigationService_didInitPageContainer extends ServiceCallHandler {
   static void regsiter() {

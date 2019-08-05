@@ -36,7 +36,7 @@ android {
 dependencies {
     implementation 'com.alibaba:fastjson:1.2.41'
     implementation 'androidx.appcompat:appcompat:1.0.1'
-    provided rootProject.findProject(":xservice_kit")
+    provided rootProject.findProject(":xservice_kit_androidx")
 }
 
 ext {

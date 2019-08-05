@@ -22,11 +22,11 @@
  * THE SOFTWARE.
  */
 import 'package:flutter/material.dart';
-import 'package:flutter_boost/container/container_coordinator.dart';
-import 'package:flutter_boost/container/container_manager.dart';
-import 'package:flutter_boost/flutter_boost.dart';
-import 'package:flutter_boost/router/boost_page_route.dart';
-import 'package:flutter_boost/support/logger.dart';
+import 'package:flutter_boost_androidx/container/container_coordinator.dart';
+import 'package:flutter_boost_androidx/container/container_manager.dart';
+import 'package:flutter_boost_androidx/flutter_boost.dart';
+import 'package:flutter_boost_androidx/router/boost_page_route.dart';
+import 'package:flutter_boost_androidx/support/logger.dart';
 
 enum ContainerLifeCycle {
   Init,

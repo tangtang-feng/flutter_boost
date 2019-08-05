@@ -23,12 +23,12 @@
  */
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
-import 'package:flutter_boost/AIOService/NavigationService/service/NavigationService.dart';
-import 'package:flutter_boost/container/boost_container.dart';
-import 'package:flutter_boost/container/container_coordinator.dart';
-import 'package:flutter_boost/flutter_boost.dart';
-import 'package:flutter_boost/support/logger.dart';
-import 'package:flutter_boost/container/navigator_observer.dart';
+import 'package:flutter_boost_androidx/AIOService/NavigationService/service/NavigationService.dart';
+import 'package:flutter_boost_androidx/container/boost_container.dart';
+import 'package:flutter_boost_androidx/container/container_coordinator.dart';
+import 'package:flutter_boost_androidx/flutter_boost.dart';
+import 'package:flutter_boost_androidx/support/logger.dart';
+import 'package:flutter_boost_androidx/container/navigator_observer.dart';
 enum ContainerOperation { Push, Onstage, Pop, Remove }
 
 typedef BoostContainerObserver = void Function(
